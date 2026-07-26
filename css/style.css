@@ -1106,7 +1106,12 @@ line-height: 20px;
 .brand-icon {
     width: 45px;
     height: 45px;
-    background-color: var(--textAlmost);
+  background: #e7560c;
+  background: linear-gradient(
+    135deg,
+    rgba(231, 86, 12, 1) 45%,
+    rgba(163, 59, 15, 1) 97%
+  );
     box-shadow: 0 2px 4px rgba(230, 81, 0, 0.2); 
 }
 
