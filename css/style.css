@@ -354,6 +354,11 @@ body {
   left: 20px;
 }
 @media (max-width: 495px) {
+  .dropdown-menu{
+    width: 40rem;
+    height: 100dvh;
+    overflow-y: auto;
+  }
   .hero-section {
     min-height: auto;
     padding-top: 5.625rem;
